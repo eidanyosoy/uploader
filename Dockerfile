@@ -42,7 +42,7 @@ RUN wget https://github.com/just-containers/s6-overlay/releases/download/v1.21.4
     rm -r s6-overlay.tar.gz
 
 # Install Unionfs
-RUN apk add --update --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing mergerfs && \
+RUN apk add --update --repository http://dl-cdn.alpinelinux.org/alpine/edge/community mergerfs && \
     sed -i 's/#user_allow_other/user_allow_other/' /etc/fuse.conf
 
 # Add volumes
