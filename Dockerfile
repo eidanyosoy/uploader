@@ -1,7 +1,3 @@
-# Copyright (c) 2019, PhysK
-# All rights reserved.
-
-
 # Lightweight Linux Node base
 FROM alpine:latest
 LABEL maintainer="eidanyosoy <eidanyosoy@gmail.com>"
