@@ -30,7 +30,7 @@ Copy your Service Account keys to ``/opt/appdata/uploader/keys``
  --privileged=true \
  -e PUID=1000 \
  -e PGID=1000 \
- physk/rclone-mergerfs:latest
+ eidanyosoy/uploader:latest
 ```
 
 By default a webserver is spawned on port ``8080`` (internal)
