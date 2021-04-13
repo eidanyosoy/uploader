@@ -4,7 +4,7 @@
 
 # Lightweight Linux Node base
 FROM alpine:latest
-LABEL maintainer="PhysK <PhysK @ gitlab.com>"
+LABEL maintainer="eidanyosoy <eidanyosoy@gmail.com>"
 
 # Install certifacates, required dependencies
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/community/ >> /etc/apk/repositories && \
