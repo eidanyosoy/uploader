@@ -1,3 +1,4 @@
+# This is the uploader for the default MHA/PTS/PG builds, don't use this one if you use the mount docker container as well, for that use uploaderv2
 # Rclone Mount w/ Uploader
 
 ## Inital Setup
