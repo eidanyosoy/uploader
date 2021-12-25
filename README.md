@@ -106,7 +106,7 @@ version: "3"
 services:
   uploader:
     container_name: uploader
-    image: physk/rclone-mergerfs:latest
+    image: eidanyosoy/uploader:latest
     privileged: true
     cap_add:
       - SYS_ADMIN
