@@ -1,5 +1,5 @@
 # Lightweight Linux Node base
-FROM alpine:latest
+FROM alpine:3.15
 LABEL maintainer="eidanyosoy <eidanyosoy@gmail.com>"
 
 # Install certifacates, required dependencies
